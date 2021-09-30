@@ -93,7 +93,7 @@ function draw() {
   //   text("Docking UnSuccessful!", 200, 300);
   // }
 
-   if(spacecraft.y <= 350 && spacecraft.x <= 590){
+   if(spacecraft.y < 335 && spacecraft.x < 555 && spacecraft.x > 545 && spacecraft.y > 325){
      hasDocked = true;
      textSize(25);
      fill("white")
